@@ -51,6 +51,8 @@ $config = [
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',
+            'enableUnconfirmedLogin' => 'true',
+            'admins' => ['Delgadox'],
         ],
         'rbac' => 'dektrium\rbac\RbacWebModule',
     ],
